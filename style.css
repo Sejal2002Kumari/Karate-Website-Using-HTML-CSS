@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url(karate-2578819_1280.webp);
+  width: 100%;
+  color: white;
+  font-family: "Baloo 2", cursive;
+}
+
+.ulNavBar li {
+  display: inline-block;
+  padding: 9px 27px;
+
+  font-size: 25px;
+  font-family: "Baloo 2", cursive;
+}
+.ulNavBar li a {
+  color: white;
+  text-decoration: none;
+}
+.ulNavBar li a:hover,
+.ulNavBar li a:active {
+  color: black;
+}
+.left {
+  display: inline-block;
+  position: absolute;
+  left: 30px;
+  top: 10px;
+}
+.left img {
+  width: 140px;
+  filter: invert(100%);
+}
+.mid {
+  display: block;
+  width: 58%;
+  margin: 20px auto;
+}
+.right {
+  display: inline-block;
+  position: absolute;
+  right: 0px;
+  top: 20px;
+}
+.btn {
+  margin: 15px 9px;
+  color: white;
+  padding: 9px 16px;
+  border-radius: 10px;
+  border: 2px solid grey;
+  background-color: black;
+  font-size: 20px;
+  cursor: pointer;
+  text-transform: uppercase;
+
+  font-family: "Baloo 2", cursive;
+}
+.btn:hover {
+  background: linear-gradient(rgb(224, 115, 64), black);
+  color: white;
+  border: 2px solid black;
+}
+.container {
+  border: 2px solid rgb(224, 115, 64, 0.4);
+  margin: 110px 110px;
+  padding: 18px 71px;
+  width: 33%;
+  border-radius: 10px;
+}
+.container h1 {
+  text-align: center;
+}
+.container button {
+  display: block;
+  width: 70%;
+  margin: 20px auto;
+  font-size: 30px;
+}
+.container button:hover {
+  background: linear-gradient(rgb(224, 115, 64), black);
+  color: black;
+  border: 2px solid black;
+}
+.form-group input {
+  text-align: center;
+
+  padding: 6px;
+  display: block;
+  border: none;
+  margin: 10px auto;
+  font-family: "Baloo 2", cursive;
+  width: 70%;
+  border-radius: 10px;
+  font-size: 25px;
+}
